@@ -395,10 +395,10 @@ select {
   color: white;
 }
 .forinfo {
-  color: rgb(248, 56, 56);
-  background: transparent;
+  color: rgb(248, 56, 56) !important;
+  background: transparent !important;
   width: 197px;
-  border: 2px solid transparent;
+  border: 2px solid transparent !important;
   font-size: 13px;
   animation: anima 0.5s alternate infinite;
 }
