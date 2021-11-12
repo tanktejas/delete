@@ -412,6 +412,7 @@ select {
     /* display: none; */
   }
 }
+
 @media (max-width: 610px) {
   .forinfo {
     display: block;
