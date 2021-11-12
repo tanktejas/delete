@@ -395,7 +395,7 @@ select {
   color: white;
 }
 
-@media (max-width: 610px) {
+@media (max-width: 810px) {
   .forinfo {
     display: block;
     color: rgb(248, 56, 56);
