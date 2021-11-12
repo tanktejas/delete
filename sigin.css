@@ -480,7 +480,7 @@ h3 {
 } */
 
 /* footer style  */
- /* footer style  */
+/* footer style  */
 .link {
   padding: 50px;
   background-color: rgb(22, 22, 22);
@@ -567,10 +567,10 @@ footer p {
     .vid {
       width: 331px;
     }
-    .sub-links ul li{
-      padding:12px 0px;
+    .sub-links ul li {
+      padding: 12px 0px;
     }
-    .main{
+    .main {
       height: 1012px !important;
     }
   }
@@ -579,3 +579,4 @@ footer p {
       width: 279px;
     }
   }
+}
