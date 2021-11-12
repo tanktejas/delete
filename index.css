@@ -366,11 +366,35 @@ ul li button p {
 select {
   text-align: center;
 }
-@media (max-width: 499px) {
+@media (max-width: 622px) {
+  .main {
+    width: 1420px;
+  }
+  .fa-bars:before {
+    margin-right: 151px !important;
+  }
+  .maintext,
+  .questions,
+  footer {
+    width: 1417px;
+  }
+}
+
+@media (max-width: 610px) {
   .fa-bars:before {
     content: "\f0c9";
     float: right !important;
-    margin-right: 278px !important;
+    /* margin-right: 278px !important; */
+  }
+  .content ul,
+  .content h1 {
+    margin-left: 99px;
+  }
+  footer p {
+    margin-left: 94px;
+  }
+  .drop {
+    margin-left: 81px;
   }
   .language,
   .signin {
@@ -421,7 +445,7 @@ select {
   }
 }
 
-@media (max-width: 445px) {
+@media (max-width: 461px) {
   .mainhead h1 {
     font-size: 35px;
   }
