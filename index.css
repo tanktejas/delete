@@ -397,7 +397,7 @@ select {
 
 @media (max-width: 810px) {
   .forinfo {
-    display: block;
+    display: block !important;
     color: rgb(248, 56, 56);
     background: transparent;
     width: 197px;
