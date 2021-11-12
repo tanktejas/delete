@@ -414,7 +414,7 @@ select {
 }
 @media (max-width: 610px) {
   .forinfo {
-    display: block !important;
+    display: block;
   }
   .fa-bars:before {
     content: "\f0c9";
