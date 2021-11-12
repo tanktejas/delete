@@ -63,6 +63,12 @@ a {
   color: white;
   font-size: 18px;
 }
+.forinfo {
+  display: none;
+  transform: scaleX(1.2);
+  transform: scaleY(1.2);
+  transition: 0.5s;
+}
 .buttons .signin:hover {
   cursor: pointer;
 }
@@ -384,8 +390,31 @@ select {
     width: 1417px;
   }
 }
+.forinfo {
+  display: none;
+  color: white;
+}
 
 @media (max-width: 610px) {
+  .forinfo {
+    display: block;
+    color: rgb(248, 56, 56);
+    background: transparent;
+    width: 197px;
+    border: 2px solid transparent;
+    font-size: 13px;
+    animation: anima 0.5s alternate infinite;
+  }
+  @keyframes anima {
+    0% {
+      display: none;
+      transform: rotate(-14deg);
+    }
+    100% {
+      transform: rotate(14deg);
+      /* display: none; */
+    }
+  }
   .fa-bars:before {
     content: "\f0c9";
     float: right !important;

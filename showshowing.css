@@ -35,6 +35,7 @@ body h1 {
   margin-left: 12px;
   color: white;
 }
+
 .text h3,
 .text p,
 .text h1 {
@@ -192,7 +193,7 @@ footer p {
 
 @media (max-width: 500px) {
   .main-nav,
-   .link .sub-links ul {
+  .link .sub-links ul {
     display: grid;
     grid-gap: 0px;
     grid-template-columns: repeat(1, 1fr) !important;
@@ -242,21 +243,22 @@ footer p {
     font-size: 15px;
   }
 
-/* ext  */
+  /* ext  */
 
-h1 {
-  background: transparent;
-  color: white;
-  text-align: center;
-}
-body h1 {
-  background-color: black;
-}
-.text h1 {
-  background-color: transparent;
-}
-.video h1 {
-  text-align: left;
+  h1 {
+    background: transparent;
+    color: white;
+    text-align: center;
+  }
+  body h1 {
+    background-color: black;
+  }
+  .text h1 {
+    background-color: transparent;
+  }
+  .video h1 {
+    text-align: left;
+  }
 }
 
 @media (max-width: 500px) {
@@ -265,5 +267,6 @@ body h1 {
     grid-gap: 0px;
     grid-template-columns: repeat(1, 1fr) !important;
     text-align: center;
-  }   
+  }
+ 
 }

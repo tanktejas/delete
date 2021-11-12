@@ -73,3 +73,10 @@ const funforqueopen6=()=>{
     }
     arrforque[5]=(!arrforque[5]);
 }
+
+setTimeout(() => {
+   const elementforzoom=document.querySelector('.forinfo');
+   elementforzoom.style.display="none";
+}, 30000);
+
+ 
