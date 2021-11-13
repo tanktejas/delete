@@ -76,7 +76,7 @@ const funforqueopen6=()=>{
 
 setTimeout(() => {
    const elementforzoom=document.querySelector('.forinfo');
-   elementforzoom.style.display="none !important";
+    elementforzoom.innerHTML=".";
 }, 30000);  
 
  
